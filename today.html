@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+  <style>
+    body{
+      margin:0;
+      background-color: rgb(0,128,128);
+      width:100vw;
+      height:100vh;
+    }
+    .Main{
+      position:relative;
+      width:80vw;
+      height:100vh;
+      left:10vw;
+      top:10vh;
+      background-color: aliceblue;
+      border-radius: 70px;
+      
+    }
+    .Sub1{
+      position:absolute;
+      font-size:30px;
+      text-align: center;
+      width:70vw;
+      height:40vh;
+      background-color: lightblue; 
+      left:5vw;
+      top:20vh;
+    }
+    .Sub2{
+      overflow-x:scroll;
+      scrollbar-width: none;
+      width:20vw;
+      height:80vh;
+      position:absolute;
+      background-color: black;
+      right:0w;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .Box{
+      width:24vw;
+      height:100vh;
+      background-color: rgb(0,128,128);
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .Box img{
+      width:20vw;
+      height:32vh;
+      border:15px solid white;
+    }
+    .Second{
+      position:relative;
+      width:100vw;
+      height:100vh;
+      background-color: rgb(0,128,128);
+    }
+    .S1{
+      font-size: x-large;
+      background-color: aliceblue;
+      width:30vw;
+      height:50vh;
+      position: absolute;
+      top:20vh;
+      left:10vw;
+      padding-left: 100px;
+      border-radius: 100px;
+    }
+    input{
+      display: block;
+      margin-bottom:40px;
+      width:300px;
+      height:50px;
+      font-size:20px;
+      border-radius: 10px;
+      padding-left:10px;
+      
+    }
+    button{
+      width:150px;
+      height:50px;
+      font-size:large;
+      border-radius: 30px;
+      background-color:black;
+      color:white;
+      border:none;
+    }
+    ::placeholder{
+      font-size: larger;
+      padding-left: 50px;
+    }
+    .S2{
+      height:40vw;
+      height:50vh;
+      position: absolute;
+      top:20vh;
+      right:5vw;
+      background-color:blueviolet;
+    }
+    .S2 img{
+      width:40vw;
+      height:50vh;
+      border:15px solid white;
+    }
+    .top{
+      font-size:120px;
+      color:aliceblue;
+      position: sticky;
+    }
+  </style>
+</head>
+<body>
+  <div class="Main">
+    <div class="Sub1">
+      <h1>Bavana's Furniture</h1>
+      <h3>Best Furniture in Town</h3>
+      <h3>book@bav.in</h3>
+    </div>
+    <div class="Sub2">
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">
+      </div>
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">
+      </div>
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">     
+      </div>
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">     
+      </div>
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">     
+      </div>
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">     
+      </div>
+      <div class="Box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvg_GuplvaxdexhI1ooCu6vsWyWXTOmXVjrg&s" alt="Furniture Image">     
+      </div>
+     </div>
+    </div>
+  </div>  
+
+  <div class="Second">
+    <div class="S1">
+      <h1>login here </h1>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="number" placeholder="Phone Number">
+        <input type="email" placeholder="Email Address">
+        
+        <button>Sign in</button>
+
+
+      </form>
+
+    </div>
+    <div class="S2">
+      <img src="https://vrengineering.in/wp-content/uploads/2023/09/Three-Seater-Benches.jpg">
+    </div>
+
+  </div>
+  
+</body>
+</html>
